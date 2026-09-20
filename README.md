@@ -19,9 +19,9 @@
 
 RxpsG installation:
 
-    In this site select and click on the RxpsG_xx.xx.tar.gz package and download. Exit the unzipping procedure if it starts automatically.
+    In the "Manual and Tar-gz" repository of this site select and click on the RxpsG_xx.xx.tar.gz package and download. Exit the unzipping procedure if it starts automatically.
 
-    Control in the Dowloads folder the RxpsG_xx.xx.tar.gz package is present (it could be the .gz extension is lacking do not worry).
+    Control in the Downloads folder the RxpsG_xx.xx.tar.gz package is present (it could be the .gz extension is lacking do not worry).
 
     Run RStudio
 
@@ -31,17 +31,17 @@ RxpsG installation:
 
     Control that installation proceeds correctly without errors;
     
-    Some options (Automatic Element recognition, Wavelets filtering, Model Fitting) require the installation of 
-    the additional packges: baseline, FME, rootSolve, wavelets. If interested copy and paste the following command:
+    Some options of RxpsG (Automatic Element recognition, Wavelets filtering, Model Fitting) require the installation of the additional packges: baseline, FME, rootSolve, wavelets. 
+    If interested copy and paste the following command:
     
     install.packages(c("baseline", "FME", "rootSolve", "wavelets", repos = "https://cloud.r-project.org", dependencies=TRUE)
 
 
-    To INSTALL RxpsG_3.3 copy and paste the following command:
+    To INSTALL RxpsG_3.4 copy and paste the following command:
 
-    install.packages("C:/Path-To-Tar.Gz/RxpsG_3.3.tar.gz", type = "source", dependencies=TRUE)
+    install.packages("C:/Path-To-Tar.Gz/RxpsG_3.4.tar.gz", type = "source", dependencies=TRUE)
 
-    where Path-To-Tar.Gz is the path to the dowloaded RxpsG_3.3.tar.gz file.
+    where Path-To-Tar.Gz is the path to the dowloaded RxpsG_3.4.tar.gz file.
 
     N.B. if installation blocks at level:
          '** testing if installed package can be loaded from temporary location '
