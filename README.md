@@ -20,14 +20,15 @@
 RxpsG installation:
 
     In the "Manual and Tar-gz" repository of this site select and click on the 
-    RxpsG_xx.xx.tar.gz package and download. Exit the unzipping procedure if it starts automatically.
+    RxpsG_xx.xx.tar.gz package and download. Exit the unzipping procedure if it 
+    starts automatically.
 
     Control in the Downloads folder the RxpsG_xx.xx.tar.gz package is present 
     (it could be the .gz extension is lacking do not worry).
 
     Run RStudio
 
-    Under RStudio copy and paste the following command to INSTALL THE REQUIRED LIBRARIES:
+    In RStudio copy and paste the following command to INSTALL THE REQUIRED LIBRARIES:
 
     install.packages(c("digest", "import", "latticeExtra", "minpack.lm", "signal", "SparseM"), repos = "https://cloud.r-project.org", dependencies=TRUE)
 
