@@ -19,9 +19,11 @@
 
 RxpsG installation:
 
-    In the "Manual and Tar-gz" repository of this site select and click on the RxpsG_xx.xx.tar.gz package and download. Exit the unzipping procedure if it starts automatically.
+    In the "Manual and Tar-gz" repository of this site select and click on the 
+    RxpsG_xx.xx.tar.gz package and download. Exit the unzipping procedure if it starts automatically.
 
-    Control in the Downloads folder the RxpsG_xx.xx.tar.gz package is present (it could be the .gz extension is lacking do not worry).
+    Control in the Downloads folder the RxpsG_xx.xx.tar.gz package is present 
+    (it could be the .gz extension is lacking do not worry).
 
     Run RStudio
 
@@ -31,7 +33,8 @@ RxpsG installation:
 
     Control that installation proceeds correctly without errors;
     
-    Some options of RxpsG (Automatic Element recognition, Wavelets filtering, Model Fitting) require the installation of the additional packges: baseline, FME, rootSolve, wavelets. 
+    Some options of RxpsG (Automatic Element recognition, Wavelets filtering, Model Fitting) 
+    require the installation of the additional packges: baseline, FME, rootSolve, wavelets. 
     If interested copy and paste the following command:
     
     install.packages(c("baseline", "FME", "rootSolve", "wavelets", repos = "https://cloud.r-project.org", dependencies=TRUE)
